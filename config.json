@@ -1,0 +1,57 @@
+[
+    {
+        "exchange": "Binance",
+        "url": "https://api.binance.com/api/v3/avgPrice?symbol=BTCUSDT",
+        "jsonPath": "price"
+    },
+    {
+        "exchange": "Coinbase",
+        "url": "https://api.coinbase.com/v2/prices/spot?currency=USD",
+        "jsonPath": "data.amount"
+    },
+    {
+        "exchange": "Kraken",  
+        "url": "https://api.kraken.com/0/public/Ticker?pair=XBTUSD",
+        "jsonPath": "result.XXBTZUSD.c[0]"
+    },
+    {
+        "exchange": "KuCoin",
+        "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT",
+        "jsonPath": "data.price"
+    },
+    {
+        "exchange": "OKX",
+        "url": "https://www.okx.com/api/v5/market/ticker?instId=BTC-USDT",
+        "jsonPath": "data[0].last"
+    },
+    {
+        "exchange": "Bybit",
+        "url": "https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT",
+        "jsonPath": "result.list[0].usdIndexPrice"
+    },
+    {
+        "exchange": "Bitstamp",
+        "url": "https://www.bitstamp.net/api/v2/ticker/BTCUSD",
+        "jsonPath": "[0].last"
+    },
+    {
+        "exchange": "Gate.io",
+        "url": "https://data.gateapi.io/api2/1/ticker/btc_usdt",
+        "jsonPath": "last"
+    },
+    {
+        "exchange": "Bitfinex",
+        "url": "https://api.bitfinex.com/v1/pubticker/btcusd",
+        "jsonPath": "last_price"
+    },
+    {
+        "exchange": "Gemini",
+        "url": "https://api.gemini.com/v2/ticker/btcusd",
+        "jsonPath": "open"
+    },
+    {
+        "exchange": "Bisq",
+        "url": "https://bisq.markets/bisq/api/markets/ticker",
+        "jsonPath": "btc_usd.last"
+    }
+]
